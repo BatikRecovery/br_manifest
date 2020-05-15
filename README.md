@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://raw.githubusercontent.com/BatikRecovery/br_manifest/br/batik-recovery.png" > 
+ <img src="https://raw.githubusercontent.com/BatikRecovery/br_manifest/android-9.0/batik-recovery.png" > 
 </p>
 
 <div align="center">
