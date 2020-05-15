@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="Batik"
+            fetch="https://github.com/BatikRecovery"/>
+
+    <!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
+    <remove-project name="platform/bootable/recovery"/>
+    <project path="bootable/recovery" name="br_recovery" remote="Batik" revision="android-9.0"/>
+    <project path="vendor/batik" name="br_vendor" remote="Batik" revision="br" />
+
+	<!-- busybox -->
+    <project path="external/busybox" name="android_external_busybox" remote="Batik" revision="android-9.0" />
+	
+	<!-- Magiskboot -->
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" revision="master" remote="Batik" />
+</manifest>
