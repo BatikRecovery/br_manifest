@@ -150,7 +150,17 @@ Getting Started
 To get started with OMNI sources to build TWRP, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-Read and installing tools_compile : https://github.com/zhantech/tools_compile
+update all packages
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+use a script for download all packages
+
+```bash
+cd ~ && sudo apt install git -y && git clone https://github.com/akhilnarang/scripts && cd scripts && sudo bash setup/android_build_env.sh && sudo bash setup/install_android_sdk.bash
+```
 
 Make Directory 
 
